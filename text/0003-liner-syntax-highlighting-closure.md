@@ -11,7 +11,8 @@ Add to liners function `read_line` an argument that contains a closure.
 # Motivation
 [motivation]: #motivation
 
-It will allow us to improve ion's syntax highlighting. We want to see pretty colors while using ion. :)
+It will allow us to improve ion's syntax highlighting.
+Users of the library will be able to create functions that take a `str`, alter it a bit and return a new `str` that contains pretty colors. :)
 
 # Detailed design
 [design]: #detailed-design
